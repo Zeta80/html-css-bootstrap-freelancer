@@ -8,7 +8,7 @@ img {
     border-radius: 30px;
     background-color: white;
     height: 5px;
-    width: 30%;
+    width: 20%;
 }
 
 .icon-star {
@@ -61,3 +61,14 @@ header .col-1 i {
 .list-jumbo li:not(:first-child) {
     margin-left: 12px;
 }
+
+/* #endregion JUMBO */
+
+/* #region MAIN */
+
+.wrapper .portfolio img {
+    border-radius: 30px;
+}
+
+
+/* #endregion MAIN */
