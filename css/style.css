@@ -67,8 +67,28 @@ header .col-1 i {
 /* #region MAIN */
 
 .wrapper .portfolio img {
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
+.about {
+    background-color: #1abc9c;
+    color: white;
+}
 
 /* #endregion MAIN */
+
+/* #region FOOTER */
+footer {
+    background-color: #3a546d;
+    color: white;
+}
+
+.copyright-section {
+    background-color: #2c3e50;
+}
+
+.copyright-section p {
+    margin: 0;
+}
+
+/* #endregion FOOTER */
