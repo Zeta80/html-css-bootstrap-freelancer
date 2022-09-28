@@ -33,13 +33,13 @@
                     <div class="list-links">
                         <ul class="d-flex justify-content-evenly ">
                             <li>
-                                <a href="">PORTFOLGIO</a>
+                                <a href="#sectionPortfoglio">PORTFOLGIO</a>
                             </li>
                             <li>
-                                <a href="">ABOUT</a>
+                                <a href="#sectionAbout">ABOUT</a>
                             </li>
                             <li>
-                                <a href="">CONTACT</a>
+                                <a href="#sectionContact">CONTACT</a>
                             </li>
                         </ul>
                     </div>
@@ -90,8 +90,8 @@
     <main>
         <!-- SECTION PORFOLIO  -->
         <section class="wrapper py-4">
-            <div class="container pb-4 text-center">
-                <h3>PORTFOLIO</h3>
+            <div id="sectionPortfoglio" class="container pb-4 text-center">
+                <h2>PORTFOLIO</h2>
                 <div class="cont-icon d-flex justify-content-center align-items-center">
                     <div class="bar-icon bar-icon-black"></div>
                     <div class="icon-star"><i class="fa-solid fa-star"></i></div>
@@ -120,16 +120,16 @@
                 </div>
             </div>
             <!-- SECTION ABOUT -->
-            <div class="about text-center">
+            <div id="sectionAbout" class="about">
                 <div class="container">
                     <div class="cont-about px-5 py-4">
-                        <h3>About</h3>
+                        <h2 class="text-center">About</h2>
                         <div class="cont-icon d-flex justify-content-center align-items-center">
                             <div class="bar-icon"></div>
                             <div class="icon-star"><i class="fa-solid fa-star"></i></div>
                             <div class="bar-icon"></div>
                         </div>
-                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
                             <div class="col">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim laudantium hic quos
                                 eveniet
@@ -146,14 +146,18 @@
                                 dolorem odio itaque aliquam totam facere.
                             </div>
                         </div>
+                        <div class="btn-donwload text-center">
+                            <button class="btn btn-primary btn-about mb-4">Download</button>
+                        </div>
+
                     </div>
                 </div>
             </div>
             <!-- SECTION CONTACT ME  -->
-            <div class="contact-me">
+            <div id="sectionContact" class="contact-me">
                 <div class="container">
-                    <div class="cont-contact px-5">
-                        <h3 class="text-center">CONTACT ME</h3>
+                    <div class="cont-contact px-5 py-5">
+                        <h2 class="text-center">CONTACT ME</h2>
                         <div class="cont-icon d-flex justify-content-center align-items-center">
                             <div class="bar-icon bar-icon-black"></div>
                             <div class="icon-star"><i class="fa-solid fa-star"></i></div>
@@ -182,7 +186,7 @@
                                         style="height: 200px"></textarea>
                                     <label for="floatingTextarea2">Message</label>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Send</button>
+                                <button type="submit" class="btn btn-primary btn-green">Send</button>
                             </form>
                         </div>
                     </div>
@@ -206,14 +210,27 @@
                 <div class="col">
                     <div class="text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ratione eos similique voluptatem
-                        accusantium vel, id repudiandae natus qui asperiores aliquam quo illum corporis a quos dolorum
-                        sint aut esse!
+                        <div class="cont-wrap-web d-flex justify-content-center">
+                            <div class="icon-web">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="icon-web">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </div>
+                            <div class="icon-web">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="icon-web">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ratione eos similique voluptatem
-                        accusantium vel, id repudiandae natus qui asperiores aliquam quo illum corporis a quos dolorum
+                        accusantium vel, <span class="text-green">id repudiandae natus qui</span> asperiores aliquam quo
+                        illum corporis a quos dolorum
                         sint aut esse!
                     </div>
                 </div>
