@@ -41,6 +41,10 @@ a {
     color: #1abc9c;
 }
 
+.ms_ml-10px {
+    margin-left: 10px;
+}
+
 /* #region HEADER */
 header {
     height: 100px;
@@ -78,7 +82,7 @@ header .list-links ul {
 }
 
 .img-jumbo {
-    width: 50%;
+    width: 250px;
     margin: 0 auto;
     padding-top: 2em;
 }
