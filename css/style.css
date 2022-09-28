@@ -11,9 +11,19 @@ img {
     width: 20%;
 }
 
+.bar-icon.bar-icon-black {
+    background-color: black;
+    border: 2px solid black;
+}
+
 .icon-star {
     margin: 5px;
     font-size: 2.2em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* #region HEADER */
@@ -35,11 +45,16 @@ header .col-1 i {
     padding: 0.4em;
 }
 
-/* #endregion HEADER */
+header .list-links ul {
+    list-style-type: none;
+}
 
+
+/* #endregion HEADER */
 /* #region JUMBO */
 .jumbotron {
     background-color: #1abc9c;
+    color: white;
 }
 
 .cont-jumbo {
@@ -48,7 +63,7 @@ header .col-1 i {
 }
 
 .img-jumbo {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     padding-top: 2em;
 }
@@ -56,6 +71,7 @@ header .col-1 i {
 .list-jumbo {
     list-style-type: none;
     font-size: 20px;
+    padding-left: 0;
 }
 
 .list-jumbo li:not(:first-child) {
@@ -75,6 +91,17 @@ header .col-1 i {
     color: white;
 }
 
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
 /* #endregion MAIN */
 
 /* #region FOOTER */
@@ -85,6 +112,7 @@ footer {
 
 .copyright-section {
     background-color: #2c3e50;
+    padding: 1.5em 0;
 }
 
 .copyright-section p {

@@ -29,7 +29,23 @@
                 <div class="col-6">
                     <h3>START BOOSTRAP</h3>
                 </div>
-                <div class="offset-4 col-1">
+                <div class="offset-3 col-3 d-none d-lg-block ">
+                    <div class="list-links">
+                        <ul class="d-flex justify-content-evenly ">
+                            <li>
+                                <a href="">PORTFOLGIO</a>
+                            </li>
+                            <li>
+                                <a href="">ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="offset-4 col-1 d-lg-none">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </div>
@@ -41,7 +57,9 @@
     <section class="jumbotron pb-4">
         <div class="container">
             <div class="cont-jumbo">
-                <div class="img-jumbo"><img src="bootstrap_freelancer/img/avatar.svg" alt=""></div>
+                <div class="img-jumbo">
+                    <img src="bootstrap_freelancer/img/avatar.svg" alt="">
+                </div>
                 <div class="text-jumbo text-center mt-4">
                     <h1>START BOOTSTRAP</h1>
                     <div class="cont-icon d-flex justify-content-center align-items-center">
@@ -49,10 +67,18 @@
                         <div class="icon-star"><i class="fa-solid fa-star"></i></div>
                         <div class="bar-icon"></div>
                     </div>
-                    <ul class="list-jumbo d-flex justify-content-between">
-                        <li>Graphic Designer</li>
-                        <li>Web Designer</li>
-                        <li>Illustrator</li>
+                    <ul class="list-jumbo d-flex justify-content-center">
+                        <li>
+                            <a href="">Graphic Designer</a>
+                        </li>
+                        <span>-</span>
+                        <li>
+                            <a href="">Web Designer</a>
+                        </li>
+                        <span>-</span>
+                        <li>
+                            <a href="">Illustrator</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -64,12 +90,12 @@
     <main>
         <!-- SECTION PORFOLIO  -->
         <section class="wrapper py-4">
-            <div class="container pb-4">
+            <div class="container pb-4 text-center">
                 <h3>PORTFOLIO</h3>
                 <div class="cont-icon d-flex justify-content-center align-items-center">
-                    <div class="bar-icon"></div>
+                    <div class="bar-icon bar-icon-black"></div>
                     <div class="icon-star"><i class="fa-solid fa-star"></i></div>
-                    <div class="bar-icon"></div>
+                    <div class="bar-icon bar-icon-black"></div>
                 </div>
 
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 portfolio">
@@ -77,24 +103,24 @@
                         <img src="bootstrap_freelancer/img/cabin.png" alt="">
                     </div>
                     <div class="col">
-                        <img src="bootstrap_freelancer/img/cabin.png" alt="">
+                        <img src="bootstrap_freelancer/img/cake.png" alt="">
                     </div>
                     <div class="col">
-                        <img src="bootstrap_freelancer/img/cabin.png" alt="">
+                        <img src="bootstrap_freelancer/img/circus.png" alt="">
                     </div>
                     <div class="col">
-                        <img src="bootstrap_freelancer/img/cabin.png" alt="">
+                        <img src="bootstrap_freelancer/img/game.png" alt="">
                     </div>
                     <div class="col">
-                        <img src="bootstrap_freelancer/img/cabin.png" alt="">
+                        <img src="bootstrap_freelancer/img/safe.png" alt="">
                     </div>
                     <div class="col">
-                        <img src="bootstrap_freelancer/img/cabin.png" alt="">
+                        <img src="bootstrap_freelancer/img/submarine.png" alt="">
                     </div>
                 </div>
             </div>
             <!-- SECTION ABOUT -->
-            <div class="about">
+            <div class="about text-center">
                 <div class="container">
                     <div class="cont-about px-5 py-4">
                         <h3>About</h3>
@@ -127,21 +153,37 @@
             <div class="contact-me">
                 <div class="container">
                     <div class="cont-contact px-5">
-                        <h3>CONTACT ME</h3>
+                        <h3 class="text-center">CONTACT ME</h3>
                         <div class="cont-icon d-flex justify-content-center align-items-center">
-                            <div class="bar-icon"></div>
+                            <div class="bar-icon bar-icon-black"></div>
                             <div class="icon-star"><i class="fa-solid fa-star"></i></div>
-                            <div class="bar-icon"></div>
+                            <div class="bar-icon bar-icon-black"></div>
                         </div>
                         <div class="text">
-                            <p>Name</p>
-                            <hr>
-                            <p>Email Address</p>
-                            <hr>
-                            <p>Phone Number</p>
-                            <hr>
-                            <p>Message</p>
-                            <hr>
+                            <form class="text-left ">
+                                <div class="form-floating ">
+                                    <input type="text" name="" id="userName"
+                                        class="form-control ms_floating-form-control" placeholder="Name">
+                                    <label for="userName">Name</label>
+                                </div>
+                                <div class="form-floating ">
+                                    <input type="text" name="" id="userEmail"
+                                        class="form-control ms_floating-form-control" placeholder="Email Address">
+                                    <label for="userEmail">Email Address</label>
+                                </div>
+                                <div class="form-floating ">
+                                    <input type="text" name="" id="userPhone"
+                                        class="form-control ms_floating-form-control" placeholder="Phone Number">
+                                    <label for="userPhone">Phone Number</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" placeholder="Message" id="floatingTextarea2"
+                                        style="height: 200px"></textarea>
+                                    <label for="floatingTextarea2">Message</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -151,8 +193,8 @@
     <!-- #endregion MAIN -->
 
     <!-- #region FOOTER -->
-    <footer>
-        <div class="container">
+    <footer class="text-center">
+        <div class="container py-4">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="text">
